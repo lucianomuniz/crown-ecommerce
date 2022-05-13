@@ -1,4 +1,4 @@
-.category-container {
+.directory-item-container {
   align-items: center;
   border: 1px solid black;
   display: flex;
@@ -17,7 +17,7 @@
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
 
-    & .category-body-container {
+    & .body {
       opacity: 0.9;
     }
   }
@@ -41,7 +41,7 @@
     width: 100%;
   }
 
-  .category-body-container {
+  .body {
     align-items: center;
     background-color: white;
     border: 1px solid black;
