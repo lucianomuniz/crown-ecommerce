@@ -1,10 +1,11 @@
 import { createContext, useState, useEffect } from 'react';
 
 import {
-  addCollectonAndDocuments,
+  // addCollectonAndDocuments,
   getCategoriesAndDocuments,
 } from '../utils/firebase/firebase.utils.js';
 
+/* Only use the code below to iniciate the Firebase DB - 'categories' collection */
 // import SHOP_DATA from '../shop-data.js';
 
 export const CategoriesContext = createContext({
@@ -14,7 +15,7 @@ export const CategoriesContext = createContext({
 export const CategoriesProvider = ({ children }) => {
   const [categoriesMap, setCategoriesMap] = useState({});
 
-  /* Only used to iniciate the Firebase DB - 'categories' collection */
+  /* Only use the code below to iniciate the Firebase DB - 'categories' collection */
   // useEffect(() => {
   //   addCollectonAndDocuments('categories', SHOP_DATA);
   // }, []);
