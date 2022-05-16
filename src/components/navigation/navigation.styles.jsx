@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const NavitagionContainer = styled.div`
+export const NavigationContainer = styled.div`
   display: flex;
   height: 70px;
   justify-content: space-between;
