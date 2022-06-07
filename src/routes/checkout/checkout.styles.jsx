@@ -7,6 +7,10 @@ export const CheckoutContainer = styled.div`
   margin: 50px auto 0;
   min-height: 90vh;
   width: 55%;
+
+  @media screen and (max-width: 800px) {
+    width: 90%;
+  }
 `;
 
 export const CheckoutHeader = styled.div`
@@ -23,6 +27,15 @@ export const HeaderBlock = styled.div`
 
   &:last-child {
     width: 8%;
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 22%;
+
+    &:last-child {
+      width: 12%;
+    }
+  }
 `;
 
 export const Total = styled.span`

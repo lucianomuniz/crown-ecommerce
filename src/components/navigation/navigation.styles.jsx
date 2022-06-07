@@ -21,6 +21,10 @@ export const NavLinks = styled.div`
   height: 100%;
   justify-content: flex-end;
   width: 50%;
+
+  @media screen and (max-width: 800px) {
+    width: 80%;
+  }
 `;
 
 export const NavLink = styled(Link)`
